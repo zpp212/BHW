@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>f:\vs练手\c++\mn_pid\mn_pid\</FILEPATH>
+      <FILENAME>rfid_communicate.h</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>传递了一个非整数作为_Param_(2)，而对“printf”的调用需要一个整数，实际类型: “unsigned short [4]”: 如果当前传递的是一个指针值，则应使用 %p。</DESCRIPTION>
+    <FUNCTION>CRfidCommunication::GetRfidTagInfo</FUNCTION>
+    <DECORATED>?GetRfidTagInfo@CRfidCommunication@@QAEXH@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
